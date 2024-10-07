@@ -1,0 +1,80 @@
+/* unvisited link */
+a:link {
+    color: inherit;
+}
+
+/* visited link */
+a:visited {
+    color: inherit;
+}
+
+/* mouse over link */
+a:hover {
+    color: inherit;
+}
+
+/* selected link */
+a:active {
+    color: inherit;
+}
+
+a {
+	text-decoration: none;
+}
+h1 {
+	font-weight: bold;
+	font-size: 1.2em !important;
+	text-align: left;
+	padding: 0.5em 0 1.5em 0;
+	margin-bottom: 2em;
+	border-bottom: 1px solid #ccc;
+	hyphens: none;
+	-webkit-hyphens: none;
+	-webkit-text-stroke-color: initial;
+	-webkit-text-stroke-width: initial;
+	text-shadow: none;
+}
+p {
+	margin: 0;
+	margin-bottom: 0;
+	padding: 0;
+	padding-bottom: 0;
+	text-indent: 2em;
+}
+sub {
+	vertical-align: -10%;
+	font-size: 67%;
+}
+sup {
+	vertical-align: 33%;
+	font-size: 67%;
+}
+body {
+	width: 100%;
+}
+.underline {
+	text-decoration: underline;
+}
+.orientation-opposed .underline {
+	text-decoration: overline;
+}
+.strikethrough {
+	text-decoration: line-through;
+}
+.underline-strikethrough {
+	text-decoration: underline line-through;
+}
+.orientation-opposed .underline-strikethrough {
+	text-decoration: overline line-through;
+}
+.book {
+	text-align: center;
+}
+.book_title {
+	font-size: 2em;
+	font-weight: bold;
+	padding: 5em 0 1em 0;
+}
+.book_author {
+	font-size: 1.3em;
+}
