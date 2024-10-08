@@ -3,10 +3,11 @@
 当前自用，可自行修改成自己想要的
 
 ## 前提条件
-可以命令行运行`aria2c`和`zip`
+* 安装了`aria2c`和`zip`
+* MacOS需要安装 `gnu-sed`
 
 ## 使用方式
-1. 先获得章节url地址，存到urls.txt
+1. 先获得章节url地址，存到`urls.txt`，每行一个地址
 2. 然后依次运行
 ```shell
 ./0-download.sh

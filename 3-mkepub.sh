@@ -1,5 +1,11 @@
 #!/bin/bash
 
+if [ -z "$1" ] && [ -z "$2" ]; then
+  echo "错误：需要提供书名和作者两个参数。"
+  echo "示例：$0 三国演义 罗贯中"
+  exit 1
+fi
+
 bookname=$1
 author=$2
 uuid=$(uuidgen)

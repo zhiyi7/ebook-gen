@@ -3,7 +3,6 @@ cd ./epub/content
 # 遍历当前文件夹中的所有 .html 文件
 for file in *.html; do
     echo "清理 $file"
-    # 使用 awk 处理文件
     awk '
     /<h1>/,/<\/h1>/ {
         print
